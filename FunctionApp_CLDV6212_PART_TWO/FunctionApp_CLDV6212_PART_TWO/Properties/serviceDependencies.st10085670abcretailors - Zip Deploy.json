@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/storage_B4668B07D9, /subscriptions/f65dfc0f-744b-433e-a545-e6de061248b9/resourceGroups/ST10085670POERESOURSE/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/storage_03F75F87B5",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/st10085670storage",
+      "type": "storage.azure",
+      "connectionId": "storage"
+    }
+  }
+}

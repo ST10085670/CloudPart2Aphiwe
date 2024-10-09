@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/st10085670abcretailors",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+      "dynamicId": null
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_3487A83726, /subscriptions/f65dfc0f-744b-433e-a545-e6de061248b9/resourceGroups/ST10085670POERESOURSE/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_46FCB078D2",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/st10085670storage",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "dynamicId": null
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/storage_B4668B07D9, /subscriptions/f65dfc0f-744b-433e-a545-e6de061248b9/resourceGroups/ST10085670POERESOURSE/providers/Microsoft.Web/sites/st10085670abcretailors/providers/Microsoft.ServiceLinker/linkers/storage_03F75F87B5",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/st10085670poeresour8e1c",
+      "type": "storage.azure",
+      "connectionId": "storage",
+      "dynamicId": null
+    }
+  }
+}
